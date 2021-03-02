@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/camundadb?autoReconnect=true
+    username: camundauser
+    password: ENC(zGNw1AKtGoDFza2fjXYaKJ6+ti7aene8il47urfwGnLBf6FrbswehLhK/ut6HsEp)
+# ENC(zGNw1AKtGoDFza2fjXYaKJ6+ti7aene8il47urfwGnLBf6FrbswehLhK/ut6HsEp)
+# camundauser
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo
